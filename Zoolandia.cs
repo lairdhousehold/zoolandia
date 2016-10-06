@@ -1,19 +1,31 @@
+using System;
 
-class Animal
+
+namespace Zoolandia 
 {
-    public string name { get; set; }
-
-    public string height {get; set;}
-
-    public string weight {get; set;}
-
-    public static void eat ()
+    public class Program
     {
-        Console.WriteLine("Animal is now eating");
+        public static void Main(string[] args)
+        
+        {      
+            class Animal
+            {
+                public string name { get; set; }
+
+                public string height {get; set;}
+
+                public string weight {get; set;}
+
+                public static void eat ()
+                {
+                    Console.WriteLine("Animal is now eating");
+                }
+                public static void sleep ()
+                {
+                    Console.WriteLine("Animal is now sleeping");
+                }
+            class  
+            }  
+        }
     }
-    public static void sleep ()
-    {
-        Console.WriteLine("Animal is now sleeping");
-    }
-    
 }
