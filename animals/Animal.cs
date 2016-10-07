@@ -9,7 +9,7 @@ namespace Zoolandia.Animals
         public int  weight{ get; set;}
         
 
-        public static void sleep ()
+        public virtual void sleep ()
         {
             Console.WriteLine("Animal is now sleeping");
         }
@@ -17,7 +17,7 @@ namespace Zoolandia.Animals
         {
             Console.WriteLine("Animal is now eating");
         }
-        public static void poop()
+        public virtual void poop()
         {
             Console.WriteLine("Animal is now pooping");
         }

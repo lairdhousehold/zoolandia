@@ -1,9 +1,10 @@
 using System;
+using Zoolandia.Genus;
 
 
 namespace Zoolandia.Animals
 {
-  public class Homosapien: Animal 
+  public class Homosapien: Homo
   {
 
     public bool bipedal { get; set; }
@@ -17,7 +18,11 @@ namespace Zoolandia.Animals
    
     public void killCroc ()
     {
-        Console.WriteLine($"human has now shot the Crocodylinae that ate the  Macaca-Fascicularis that threw the poop at him");
+        Console.WriteLine($"{this.name} has now shot the Crocodylinae that ate the  Macaca-Fascicularis that threw the poop at him");
+    }
+    public override void poop()
+    {
+      Console.WriteLine($"{this.name} is pooping in the grass");
     }
 
    

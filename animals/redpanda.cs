@@ -1,9 +1,10 @@
 using System;
+using Zoolandia.Genus;
 
 
 namespace Zoolandia.Animals
 {
-  public class AilurusFulgens : Animal
+  public class AilurusFulgens : Ailuropoda
   {
 
     public string furColor { get; set; }

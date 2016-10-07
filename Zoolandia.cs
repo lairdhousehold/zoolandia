@@ -30,6 +30,7 @@ namespace Zoolandia
             newCrocodile.eatingMonkeys();
             newMonkey.poopThrow();
             stalkyHuman.killCroc();
+            stalkyHuman.poop();
             Console.WriteLine($"{crabapple.name} has an issue with Cheese cause his tail weighs {crabapple.weight} pounds");
 
 

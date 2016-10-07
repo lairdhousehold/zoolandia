@@ -1,9 +1,10 @@
 using System;
+using Zoolandia.Genus;
 
 
 namespace Zoolandia.Animals
 {
-  public class MacacaFascicularis: Animal 
+  public class MacacaFascicularis: Macaque 
   {
 
     public int tailLength { get; set; }

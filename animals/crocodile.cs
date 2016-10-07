@@ -1,14 +1,16 @@
 using System;
+using Zoolandia.Genus;
+
 
 
 namespace Zoolandia.Animals
 {
-  public class Crocodylinae: Animal 
+  public class Crocodylinae:Crocodylus  
   {
 
-    public bool hasScales { get; set; }
-    public bool amphibious { get; set; }
-    public bool isCarnivorus {get; set;}
+    public bool narrowSnout { get; set; }
+    public bool isAgressive { get; set; }
+    public bool isFreshWater {get; set;}
     public Crocodylinae(string name, int weight, bool hasScales )
     
     { 
@@ -17,9 +19,9 @@ namespace Zoolandia.Animals
       this.hasScales = true;
     }
 
-    public override void eat()
+    public override void poop()
     {
-      Console.WriteLine($"the {this.name} doesn't eat it consumes life");
+      Console.WriteLine($"{this.name} pooped a monkey");
     }
    
     public void eatingMonkeys ()
