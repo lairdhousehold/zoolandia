@@ -1,13 +1,13 @@
 using System;
 
 
-namespace Zoolandia.Animals 
+namespace Zoolandia
 {
   public class AilurusFulgens : Animal
   {
 
     public string furColor { get; set; }
-    public string highBodyfat { get; set; }
+    public bool highBodyfat { get; set; }
    
     public static void hide ()
     {

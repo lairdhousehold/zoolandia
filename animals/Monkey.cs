@@ -1,13 +1,13 @@
 using System;
 
 
-namespace Zoolandia.Animals 
+namespace Zoolandia
 {
   public class MacacaFascicularis: Animal 
   {
 
-    public string tailLength { get; set; }
-    public string thumbCount { get; set; }
+    public int tailLength { get; set; }
+    public int thumbCount { get; set; }
    
     public static void poopThrow ()
     {

@@ -1,13 +1,14 @@
 using System;
 
 
-namespace Zoolandia.Animals
+namespace Zoolandia
 {
   public class Crocodylinae: Animal 
   {
 
-    public string scaleCount { get; set; }
-    public string amphibious { get; set; }
+    public bool hasScales { get; set; }
+    public bool amphibious { get; set; }
+    public bool isCarnivorus {get; set;}
    
     public static void eatingMonkeys ()
     {

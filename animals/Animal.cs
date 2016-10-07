@@ -1,12 +1,13 @@
 using System;
 
-namespace Zoolandia.Animals
+namespace Zoolandia
 {
-    public class Animal{
+    public class Animal
+    {
         public string name { get; set; }
-        public string height{ get; set;}
-
-        public string weight{ get; set;}
+        public int  height{ get; set;}
+        public int  weight{ get; set;}
+        
 
         public static void sleep ()
         {
@@ -20,6 +21,7 @@ namespace Zoolandia.Animals
         {
             Console.WriteLine("Animal is now pooping");
         }
+
     }
 
 } 

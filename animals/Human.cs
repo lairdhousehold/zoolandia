@@ -1,13 +1,13 @@
 using System;
 
 
-namespace Zoolandia.Animals
+namespace Zoolandia
 {
   public class Homosapien: Animal 
   {
 
-    public string bipedal { get; set; }
-    public string makesTools { get; set; }
+    public bool bipedal { get; set; }
+    public bool makesTools { get; set; }
    
     public static void killCroc ()
     {
