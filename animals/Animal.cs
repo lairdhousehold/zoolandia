@@ -13,7 +13,7 @@ namespace Zoolandia.Animals
         {
             Console.WriteLine("Animal is now sleeping");
         }
-        public static void eat ()
+        public virtual void eat ()
         {
             Console.WriteLine("Animal is now eating");
         }

@@ -9,7 +9,7 @@ namespace Zoolandia.Animals
     public string furColor { get; set; }
     public bool highBodyfat { get; set; }
    
-    public static void hide ()
+    public void hide ()
     {
         Console.WriteLine("AilurusFulgens is hiding from all of the other crazie animals");
     }

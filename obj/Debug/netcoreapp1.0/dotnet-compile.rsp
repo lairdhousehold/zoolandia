@@ -87,7 +87,7 @@
 --reference:C:\Users\Matthew\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Matthew\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Matthew\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-c:\Users\Matthew\workspace\zoolandia\zoolandia.cs
+c:\Users\Matthew\workspace\zoolandia\Zoolandia.cs
 c:\Users\Matthew\workspace\zoolandia\animals\Animal.cs
 c:\Users\Matthew\workspace\zoolandia\animals\crocodile.cs
 c:\Users\Matthew\workspace\zoolandia\animals\Human.cs

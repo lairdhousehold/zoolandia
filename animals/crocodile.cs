@@ -9,8 +9,20 @@ namespace Zoolandia.Animals
     public bool hasScales { get; set; }
     public bool amphibious { get; set; }
     public bool isCarnivorus {get; set;}
+    public Crocodylinae(string name, int weight, bool hasScales )
+    
+    { 
+      this.name = name;
+      this.weight = weight;
+      this.hasScales = true;
+    }
+
+    public override void eat()
+    {
+      Console.WriteLine($"the {this.name} doesn't eat it consumes life");
+    }
    
-    public static void eatingMonkeys ()
+    public void eatingMonkeys ()
     {
         Console.WriteLine("Crocodylinae is now eating Macaca-Fascicularis that threw poop at him");
     }

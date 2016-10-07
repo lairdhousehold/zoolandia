@@ -31,27 +31,15 @@ namespace Zoolandia
               makesTools = true
 
           };
-          Crocodylinae newCrocodile = new Crocodylinae()
-          {
-              name = "rufus",
-              weight = 1500,
-              isCarnivorus = true
-
-          };
+          Crocodylinae newCrocodile = new Crocodylinae("rufus", 1500, true);
+          
             Console.WriteLine($"Your Monkey,{newMonkey.name}, weighs {newMonkey.weight} pounds");
             Console.WriteLine($"Your Panda,{newPanda.name}, is {newPanda.furColor} and fluffy");
             Console.WriteLine($"{newHuman.name}, weighs {newHuman.weight} pounds");
-            Console.WriteLine($"Your Crocodile,{newCrocodile.name}, weighs {newCrocodile.weight} pounds");
+            Console.WriteLine($"Your Crocodile,{newCrocodile.name}, weighs {newCrocodile.weight} pounds"); 
+            newCrocodile.eatingMonkeys();
+            newMonkey.poopThrow();
             
-          
-
-
-
-
-
-          
-
-
 
 
 
