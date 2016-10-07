@@ -8,7 +8,7 @@ namespace Zoolandia
         public static void Main(string[] args)
         {
         // Create the first animal
-          Animal newMonkey = new MacacaFascicularis()
+          MacacaFascicularis newMonkey = new MacacaFascicularis()
           {
               name = "felix",
               weight = 5,
@@ -17,21 +17,21 @@ namespace Zoolandia
               
               
           };
-          Animal newPanda = new AilurusFulgens()
+          AilurusFulgens newPanda = new AilurusFulgens()
           {
               name = "bob",
               furColor = "red",
               weight = 50,
               highBodyfat = true
           };
-          Animal newHuman = new Homosapien()
+          Homosapien newHuman = new Homosapien()
           {
               name = "larry",
               weight = 180,
               makesTools = true
 
           };
-          Animal newCrocodile = new Crocodylinae()
+          Crocodylinae newCrocodile = new Crocodylinae()
           {
               name = "rufus",
               weight = 1500,
@@ -39,7 +39,7 @@ namespace Zoolandia
 
           };
             Console.WriteLine($"Your Monkey,{newMonkey.name}, weighs {newMonkey.weight} pounds");
-            Console.WriteLine($"Your Panda,{newPanda.name}, is {newPanda.furColor} pounds");
+            Console.WriteLine($"Your Panda,{newPanda.name}, is {newPanda.furColor} and fluffy");
             Console.WriteLine($"{newHuman.name}, weighs {newHuman.weight} pounds");
             Console.WriteLine($"Your Crocodile,{newCrocodile.name}, weighs {newCrocodile.weight} pounds");
             
