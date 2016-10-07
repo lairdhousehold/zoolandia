@@ -8,6 +8,12 @@ namespace Zoolandia.Animals
 
     public bool bipedal { get; set; }
     public bool makesTools { get; set; }
+    public Homosapien(string name, int weight, bool makesTools)
+    {
+      this.name = name;
+      this.weight = weight;
+      this.makesTools = true;
+    }
    
     public void killCroc ()
     {
