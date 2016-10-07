@@ -1,4 +1,5 @@
 ﻿using System;
+using Zoolandia.Animals;
 
 namespace Zoolandia 
 {
@@ -38,7 +39,7 @@ namespace Zoolandia
 
           };
             Console.WriteLine($"Your Monkey,{newMonkey.name}, weighs {newMonkey.weight} pounds");
-            Console.WriteLine($"Your Panda,{newPanda.name}, is {newPanda.weight} pounds");
+            Console.WriteLine($"Your Panda,{newPanda.name}, is {newPanda.furColor} pounds");
             Console.WriteLine($"{newHuman.name}, weighs {newHuman.weight} pounds");
             Console.WriteLine($"Your Crocodile,{newCrocodile.name}, weighs {newCrocodile.weight} pounds");
             

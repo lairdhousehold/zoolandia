@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Zoolandia
+namespace Zoolandia.Animals
 {
   public class MacacaFascicularis: Animal 
   {
