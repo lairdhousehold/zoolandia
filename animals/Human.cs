@@ -17,7 +17,7 @@ namespace Zoolandia.Animals
    
     public void killCroc ()
     {
-        Console.WriteLine("Homosapien has now shot the Crocodylinae that ate the  Macaca-Fascicularis that threw the poop at him");
+        Console.WriteLine($"human has now shot the Crocodylinae that ate the  Macaca-Fascicularis that threw the poop at him");
     }
 
    
