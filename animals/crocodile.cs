@@ -1,22 +1,22 @@
 using System;
-using Zoolandia.Genus;
+
 
 
 
 namespace Zoolandia.Animals
 {
-  public class Crocodylinae:Crocodylus  
+  public class Crocodile:Animal
   {
 
     public bool narrowSnout { get; set; }
     public bool isAgressive { get; set; }
     public bool isFreshWater {get; set;}
-    public Crocodylinae(string name, int weight, bool hasScales )
+    public Crocodile(string name, int weight, bool hasScales )
     
     { 
       this.name = name;
       this.weight = weight;
-      this.hasScales = true;
+      this.isFreshWater = true;
     }
 
     public override void poop()

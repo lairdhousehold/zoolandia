@@ -1,24 +1,24 @@
 using System;
-using Zoolandia.Genus;
+
 
 
 namespace Zoolandia.Animals
 {
-  public class MacacaFascicularis: Macaque 
+  public class Monkey: Animal
   {
-
+    
     public int tailLength { get; set; }
     public int thumbCount { get; set; }
-    public MacacaFascicularis( string name, int weight, int tailLength0)
+    public Monkey ( string name, int weight, int tailLength0)
     {
-      this.name= name;
+      this.name = name;
       this.weight = weight;
       this.tailLength = tailLength;
     }
    
     public void poopThrow ()
     {
-        Console.WriteLine("Macaca-Fascicularis is now throwing poop at you");
+        Console.WriteLine($"{this.name} is now throwing poop at you");
     }
 
    

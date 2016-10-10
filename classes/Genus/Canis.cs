@@ -1,20 +1,20 @@
 using System;
-using Zoolandia.Animals;
 
 
-namespace Zoolandia.Genus
+
+namespace Zoolandia.Animals
 {
-  public class Canis: Animal 
+  public class Canis: Genus
   {
 
     public bool hasFourLegs { get; set; }
     public bool barks { get; set; }
     public bool isCarnivorus {get; set;}
    
-    public override void eat()
-    {
-      Console.WriteLine($"{this.name} like to chase thier food");
-    }
+    // public override void eat()
+    // {
+    //   Console.WriteLine($"{this.name} like to chase thier food");
+    // }
    
     public void packRun ()
     {

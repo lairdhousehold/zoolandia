@@ -1,15 +1,12 @@
 using System;
-using Zoolandia.Genus;
-
-
 namespace Zoolandia.Animals
 {
-  public class Homosapien: Homo
+    public class Human: Animal
   {
 
     public bool bipedal { get; set; }
     public bool makesTools { get; set; }
-    public Homosapien(string name, int weight, bool makesTools)
+    public Human(string name, int weight, bool makesTools)
     {
       this.name = name;
       this.weight = weight;

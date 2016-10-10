@@ -1,15 +1,15 @@
 using System;
-using Zoolandia.Genus;
+
 
 
 namespace Zoolandia.Animals
 {
-  public class AilurusFulgens : Ailuropoda
+  public class RedPanda: Animal
   {
 
     public string furColor { get; set; }
     public bool highBodyfat { get; set; }
-    public AilurusFulgens(string name, int weight, bool highBodyfat)
+    public RedPanda(string name, int weight, bool highBodyfat)
     {
       this.name = name;
       this.weight = weight;

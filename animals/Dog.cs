@@ -1,17 +1,17 @@
 using System;
-using Zoolandia.Genus;
+
 
 
 
 namespace Zoolandia.Animals
 {
-  public class Canine:Canis 
+  public class Dog:Animal
   {
 
     public bool isDomesticated { get; set; }
     public bool isPlayful { get; set; }
     public bool cohabitatesWithHumans {get; set;}
-    public Canine(string name, int weight, bool isDomesticated )
+    public Dog(string name, int weight, bool isDomesticated )
     
     { 
       this.name = name;

@@ -1,20 +1,20 @@
 using System;
-using Zoolandia.Animals;
 
 
-namespace Zoolandia.Genus
+
+namespace Zoolandia.Animals
 {
-  public class Homo: Animal 
+  public class Homo: Genus 
   {
 
     public bool usesLanguage { get; set; }
     public bool LargeBrain { get; set; }
     public bool liveInPacks {get; set;}
    
-    public override void eat()
-    {
-      Console.WriteLine($"{this.name} goes to the Grocery store");
-    }
+    // public override void eat()
+    // {
+    //   Console.WriteLine($"{this.name} goes to the Grocery store");
+    // }
    
     public void packRun ()
     {

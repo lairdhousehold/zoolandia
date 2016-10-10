@@ -1,18 +1,18 @@
 //
 using System;
-using Zoolandia.Genus;
+
 
 
 
 namespace Zoolandia.Animals
 {
-  public class Psittacuserithacus:Psittacus  
+  public class parrot:Animal 
   {
 
     public bool canImitateSounds { get; set; }
     public bool isColorful { get; set; }
     public bool isVegitarian {get; set;}
-    public Psittacuserithacus(string name, int weight, bool isVegitarian )
+    public parrot(string name, int weight, bool isVegitarian )
     
     { 
       this.name = name;
