@@ -5,8 +5,9 @@ using System;
 
 namespace Zoolandia.Animals
 {
-  public class Crocodile:Animal
+  public class Crocodile:Animal, ISwim
   {
+    public double SwimSpeed {get;set;}
 
     public bool narrowSnout { get; set; }
     public bool isAgressive { get; set; }
@@ -22,6 +23,10 @@ namespace Zoolandia.Animals
     public override void poop()
     {
       Console.WriteLine($"{this.name} pooped a monkey");
+    }
+    public virtual void swim()
+    {
+      Console.WriteLine($"Getting my swim on");
     }
    
     public void eatingMonkeys ()

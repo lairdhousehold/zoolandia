@@ -6,9 +6,9 @@ using System;
 
 namespace Zoolandia.Animals
 {
-  public class parrot:Animal 
+  public class parrot:Animal, Ifly
   {
-
+    public double AirSpeed{get;set;}
     public bool canImitateSounds { get; set; }
     public bool isColorful { get; set; }
     public bool isVegitarian {get; set;}
@@ -18,6 +18,10 @@ namespace Zoolandia.Animals
       this.name = name;
       this.weight = weight;
       this.isVegitarian = true;
+    }
+    public virtual void fly()
+    {
+      Console.WriteLine($"I am flying my butt off");
     }
 
     public override void poop()
