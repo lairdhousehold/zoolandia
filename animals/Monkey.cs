@@ -10,7 +10,7 @@ namespace Zoolandia.Animals
     
     public int tailLength { get; set; }
     public int thumbCount { get; set; }
-    public Monkey ( string name, int weight, int tailLength0)
+    public Monkey ( string name, int weight, int tailLength)
     {
       this.name = name;
       this.weight = weight;
